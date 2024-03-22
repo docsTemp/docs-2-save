@@ -25,16 +25,87 @@
   },
   "tabs": [
     {
-      "name": "Histoire géo",
+      "name": "Histoire géo 📆",
       "url": "histoire"
+    },
+    {
+      "name": "l'Etat",
+      "url": "etat"
+    },
+    {
+      "name": "Secteurs 🌎",
+      "url": "secteurs"
+    },
+    {
+      "name": "Impôts",
+      "url": "impots"
+    },
+    {
+      "name": "Contrats",
+      "url": "contrat"
+    },
+    {
+      "name": "Poursuites",
+      "url": "poursuites"
+    },
+    {
+      "name": "Paiements 💳",
+      "url": "paiements"
     }
   ],
   "navigation": [
     {
-      "group": "histoire",
+      "group": "Histoire",
+      "pages": ["histoire/generalites", "histoire/dates"]
+    },
+    {
+      "group": "Etat",
       "pages": [
-        "histoire/generalites",
-        "histoire/dates"
+        "etat/definition",
+        "etat/democratie",
+        "etat/politiques",
+        "etat/lobbys",
+        "etat/constitution",
+        "etat/pouvoirs",
+        "etat/exterieur"
+      ]
+    },
+    {
+      "group": "Secteurs",
+      "pages": [
+        "secteurs/definition",
+        "secteurs/primaire",
+        "secteurs/secondaire",
+        "secteurs/tertiaire"
+      ]
+    },
+    {
+      "group": "Impôts",
+      "pages": [
+        "impots/definition"
+      ]
+    },
+    {
+      "group": "Contrats",
+      "pages": [
+        "contrat/definition",
+        "contrat/vente",
+        "contrat/formes",
+        "contrat/nullite",
+        "contrat/consommation",
+        "contrat/leasing"
+      ]
+    },
+    {
+      "group": "Poursuites",
+      "pages": [
+        "poursuites/definition"
+      ]
+    },
+    {
+      "group": "Paiements",
+      "pages": [
+        "paiements/voc"
       ]
     }
   ],
